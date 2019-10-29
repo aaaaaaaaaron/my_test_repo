@@ -1,0 +1,19 @@
+---
+title: "my_test_rmarkdown"
+author: "Aaron Gould"
+date: "10/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is my R Markdown File. I can even add code chunks.
+
+```{r}
+2+2/2*2^2
+```
+
